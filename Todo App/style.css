@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1050px;
+  height: 100vh;
+  background: url("./images/starlight.jpg") no-repeat center center/cover;
+}
+
+.container {
+  width: 100vw;
+}
+
+/* header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 100vw;
+} */
+
+#main-header {
+  font-family: "Style-Script", cursive;
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+#form-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 40px;
+}
+
+#input-txt {
+  border-radius: 5px 0 0 5px;
+  padding: 10px 20px;
+  width: 30rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.task-holder {
+  list-style: none;
+  border: none;
+  display: inline-block;
+}
+
+.main-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item {
+  /* background: rgb(231, 245, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 251, 255, 1) 0%,
+    rgba(8, 8, 37, 1) 46%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+
+  background: rgb(22, 44, 60);
+  background: linear-gradient(
+    90deg,
+    rgba(22, 44, 60, 1) 16%,
+    rgba(79, 150, 235, 1) 42%
+  );
+  padding: 10px 35px;
+  border-radius: 3px;
+  width: 40rem;
+  border-bottom: #000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  color: #f0f0f0;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.fa-times {
+  position: absolute;
+  top: 35%;
+  right: 8%;
+  color: #1f1b1b;
+  cursor: pointer;
+}
+
+.fa-trash {
+  position: absolute;
+  top: 35%;
+  right: 2%;
+  color: #1f1b1b;
+  cursor: pointer;
+}
+
+.fa-check {
+  position: absolute;
+  top: 35%;
+  left: 1%;
+  color: #5dafa4;
+  cursor: pointer;
+}
+
+#input-btn,
+.clear-btn {
+  padding: 10px 20px;
+  width: 10rem;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.check {
+  text-decoration: line-through;
+}
+
+.clear-btn {
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+section.clear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+/* .footer {
+  position: relative;
+} */
+
+p {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  color: #fff;
+}

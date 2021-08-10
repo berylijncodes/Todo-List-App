@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/41a949429f.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Style+Script&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Todo-App</title>
+</head>
+<body>
+    <nav class="header">
+        <h1 id="main-header">Todo App</h1>
+    </nav>
+    <div class="container">
+        <div class="main-input">
+            <form id="form-holder">
+                <input type="text" id="input-txt" placeholder="What do yo want to do..?">
+                <button id="input-btn">Add</button>
+            </form>
+        </div>
+        <section id="main-list" class="main-list">
+            <ul id="task-holder" class="task-holder">
+                <!-- <li class="list-item">This is a task</li>
+                <li class="list-item">nhy</li>
+                <li class="list-item">gtryuj</li>  -->
+            </ul>
+        </section>
+        <section class="clear">
+            <button id="clear-btn" class="clear-btn">Clear All</button>
+        </section>
+        <section class="footer">
+            <!-- <p>Copyright &copy;{currentYear.getFullYear()}</p> -->
+            <p>Copyright&copy; Berylijn</p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
